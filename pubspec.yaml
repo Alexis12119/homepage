@@ -1,0 +1,51 @@
+name: lms_homepage
+description: A new Flutter project.
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^10.0.0
+  http: ^0.13.6
+  flutter_typeahead: ^4.0.0
+  supabase_flutter: ^2.8.0
+  url_launcher: ^6.0.20
+  file_picker: ^5.0.0
+  provider: ^6.0.0
+  shared_preferences: ^2.3.3
+  image_picker: ^1.1.2
+  csc_picker: ^0.2.7
+  intl: ^0.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/plsp.png
+    - assets/ccst.jpg
+    - assets/aliceg.jpg
+    - assets/gdrive.png
+    - assets/yt.png
+    - assets/city.json
+    - assets/province.json
+    - assets/region.json
+
+
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Montserrat-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Montserrat-BoldItalic.ttf
+          weight: 700
+          style: italic
